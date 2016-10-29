@@ -1,0 +1,10 @@
+import App from './App'
+const renderNode = document.getElementById('root')
+const appState = {
+    name : 'Selva'
+}
+
+const appTemplate = App.render(renderNode)
+
+
+appTemplate(appState)
